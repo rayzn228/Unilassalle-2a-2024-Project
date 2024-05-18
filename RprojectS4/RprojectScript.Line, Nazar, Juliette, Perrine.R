@@ -1,5 +1,6 @@
-#Setting up your working directory ‘RprojectS4’ folder; this folder consists of the two csv files we used in our code 
-setwd("D:/unilasalle/RprojectS4") 
+#Setting up directory with our ‘RprojectS4’ folder; this folder consists of the two csv files we used in our code. 
+#Please note that the pathway used below is Personal to my laptop. To run the Code on your laptop download the RprojectS4 and write your corresponding pathway to it in the quotations.
+setwd("D:/unilasalle/RprojectS4")
 #or
 install.packages("here")
 library(here)
