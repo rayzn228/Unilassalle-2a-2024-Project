@@ -1,6 +1,10 @@
-#Setting up directory with our ‘RprojectS4’ folder; this folder consists of the two csv files we used in our code 
-
+#Setting up your working directory ‘RprojectS4’ folder; this folder consists of the two csv files we used in our code 
 setwd("D:/unilasalle/RprojectS4") 
+#or
+install.packages("here")
+library(here)
+# Set the working directory to the folder where the script is located
+setwd(here())
 
 #loading necessary packages 
 
